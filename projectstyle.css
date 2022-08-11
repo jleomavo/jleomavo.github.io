@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    border: 0px solid red;
+}
+
+body, html {
+    height: 100%;    
+    margin: 0;
+    padding: 0px;    
+    background-color: floralwhite;
+    color: black;
+    font-family: Cormorant Garamond;
+    -webkit-font-smoothing: antialiased;
+  }
+
+.bg {
+    /* The image used */
+    background-image: url("./BackgroundIMGs/projectsBG2.png");
+  
+    /* Full height */
+    height: 100%;       
+    margin: 0;
+    
+}
+
+.topnav {     
+    overflow: hidden;  
+    padding-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;     
+  }
+
+  .topnav a {
+    float: left;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-size: 18px;
+    opacity: 0.6; 
+  }
+  
+  .topnav a:hover {
+    animation: glow 1s ease-in-out infinite alternate;
+    opacity: 1;
+  }
+  
+  .topnav a.active {    
+    opacity: 1;    
+  }  
+
+  .glow:hover {
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px grey, 0 0 30px grey;
+    }
+    
+    to {
+      text-shadow: 0 0 20px grey, 0 0 30px grey;
+    }
+  }  
+
+  body{
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  canvas {
+    display: block;    
+    position: relative;    
+    top: 50px;
+    left: 50%;
+    margin-left: 12.5%;
+    transform: translateY(-800px); 
+    border: 5px solid grey;
+  }
+
+  h1 {     
+    text-align: center;
+    font-size: 48px;    
+    color: #614c35;
+    text-shadow: 1px 1px 1px black;
+  }
+
+  h2 {
+    font-size: 36px;
+    width: 48%;
+    color: black;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 50px;
+  }
+
+  h2.gameTitle {
+    padding-bottom: 10px;
+    border-bottom: 3px solid grey;
+    border-radius: 10px;
+    margin-bottom: 50px;
+  }
+
+  .gameText {
+    color: black;
+    font-size: 24px;
+    line-height: 30px;
+    width: 48%;
+    margin-left: 5px;
+    padding: 10px;
+    text-size-adjust: 100%;
+  }
+
+ a.social:hover {
+  animation: glow 1s ease-in-out infinite alternate;    
+  opacity: .6;
+  
+}
+
+.social {
+  float: right;
+  padding: 10px;
+  text-align: center;
+  transform: translatey(-35px);
+}  
+
+.social img{
+  margin: 10px;     
+  padding: 5px;         
+} 
+
+ 
+
+  
