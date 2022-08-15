@@ -120,7 +120,7 @@ class GameScene extends Phaser.Scene {
 			{ frameWidth: 500, frameHeight: 500 });
 
     this.load.spritesheet('nightking',
-			'.assets/NightKingIdleSpriteSheet.png',
+			'NightKingIdleSpritesheet.png',
 			{ frameWidth: 1000, frameHeight: 900 }); 
 
     this.load.spritesheet('nightKingSlashing',
